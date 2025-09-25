@@ -35,5 +35,5 @@ if uploaded_image is not None:
  class_names = [model.names[i] for i in class_ids]
 
  # Count fracture
- person_count = class_names.count("fracture")
+ fracture_count = class_names.count("fracture")
  st.write(f"Number of fracture detected: **{fracture_count}**")
